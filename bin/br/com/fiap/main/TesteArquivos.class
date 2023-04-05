@@ -1,0 +1,21 @@
+Êþº¾   4 Q  br/com/fiap/main/TesteArquivos  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this  Lbr/com/fiap/main/TesteArquivos; main ([Ljava/lang/String;)V  java/io/File  D:\TesteArquivo\Teste.txt
+     (Ljava/lang/String;)V  java/util/Scanner
+     (Ljava/io/File;)V	    java/lang/System   ! out Ljava/io/PrintStream;
+  # $ % nextLine ()Ljava/lang/String;
+ ' ) ( java/io/PrintStream *  println
+  , - . hasNextLine ()Z 0 java/lang/StringBuilder 2 Erro ao ler o arquivp -
+ / 
+ 5 7 6 java/io/IOException 8 % 
+getMessage
+ / : ; < append -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ / > ? % toString
+  A B  close args [Ljava/lang/String; arquivo Ljava/io/File; leitor Ljava/util/Scanner; e Ljava/io/IOException; 
+StackMapTable M java/lang/Throwable D 
+SourceFile TesteArquivos.java !               /     *· ±    
+                 
+   	      >     g» Y· LM» Y+· M§ 
+² ,¶ "¶ &,¶ +šÿò§ 5N² » /Y1· 3-¶ 4¶ 9¶ =¶ &,Æ ,¶ @§ :,Æ ,¶ @¿,Æ ,¶ @±   ) , 5  F Q    
+   F     
+        "  )  -  F  J  Q  S  W  [   ^  b  f $    *    g C D   
+ ] E F   [ G H  -  I J  K   9 ý   	I 5d Lÿ 	  N    L  ÿ   N      O    P
